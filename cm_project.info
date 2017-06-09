@@ -1,0 +1,26 @@
+name = CMA Project
+description = Enables Project Content Type with only a Title field, a few Views, and a bit of UI.  Add fields to the Project Content Type to complete the configuration.
+package = Community Media
+dependencies[] = taxonomy
+dependencies[] = og
+dependencies[] = og_ui
+dependencies[] = og_extras
+dependencies[] = field_ui
+
+core = 7.x
+
+files[] = cm_project.install
+files[] = cm_project.module
+
+configure = admin/config/communitymedia/project
+
+
+package = "Community Media Advanced"
+version = "7.x-3.x"
+core = "7.x"
+
+project_status_url = https://github.com/cm-advanced/cm_project
+project = "cm_project"
+
+
+
